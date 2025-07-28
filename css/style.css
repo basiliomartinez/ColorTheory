@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+flex-grow: 1;
+}
+
+/* Fondo del navbar personalizado */
+.bg-Verde-Navbar {
+  background-color: #487561 !important;
+}
+
+/* Links generales del navbar */
+.navbar-nav .nav-link {
+  color: #cfd9cf !important;  /* Gris claro */
+  transition: color 0.3s ease;
+}
+
+/* Hover en los links */
+.navbar-nav .nav-link:hover {
+  color: white !important;
+}
+
+/* Link activo */
+.navbar-nav .nav-link.active {
+  color: white !important;
+  font-weight: bold;
+}
