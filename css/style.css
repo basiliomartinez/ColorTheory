@@ -47,3 +47,9 @@ flex-grow: 1;
   }
 }
 
+/*Main*/
+/*Seccion Hero del Mundo del Color*/
+.bgHero{
+  background-color: #7cab96 ;
+  color: #f1f1f1;
+}
