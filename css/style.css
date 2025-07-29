@@ -29,3 +29,21 @@ flex-grow: 1;
   color: white !important;
   font-weight: bold;
 }
+
+/*Footer*/
+@media (max-width: 767.98px) {
+  footer .row > div {
+    text-align: center;
+    justify-content: center;
+  }
+
+  footer .d-flex {
+    justify-content: center;
+  }
+}
+@media (max-width: 767.98px) {
+  footer .small {
+    font-size: 0.75rem; /* más chico que el default */
+  }
+}
+
