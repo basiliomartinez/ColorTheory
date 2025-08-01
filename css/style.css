@@ -59,7 +59,7 @@ flex-grow: 1;
   border-radius: 0.25rem;
 }
 
-/*Seccion Teoria del colorr*/
+/*Seccion Teoria del color*/
 
 .text-color {
   color: #487561 ; 
@@ -92,4 +92,21 @@ flex-grow: 1;
 .iconoTeoria i {
   font-size: 1.2rem;
   color: #fbfafa;
+}
+
+/*Seccion Teoria del color*/
+.text-color {
+  color: #2f6e5d; /* verde oscuro */
+}
+
+.decoracion-barra {
+  width: 60px;
+  height: 4px;
+  background-color: #2f6e5d;
+  border-radius: 2px;
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
 }
