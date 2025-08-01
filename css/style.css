@@ -65,6 +65,12 @@ flex-grow: 1;
   color: #487561 ; 
 }
 
+.titulo-parte1,
+.titulo-parte2 {
+  display: block;
+}
+
+
 .decoracion-barra {
   width: 60px;
   height: 3px;
