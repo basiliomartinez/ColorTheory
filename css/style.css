@@ -96,7 +96,7 @@ flex-grow: 1;
 
 /*Seccion Teoria del color*/
 .text-color {
-  color: #2f6e5d; /* verde oscuro */
+  color: #487561; /* verde oscuro */
 }
 
 .decoracion-barra {
@@ -108,5 +108,12 @@ flex-grow: 1;
 
 .card img {
   object-fit: cover;
-  height: 200px;
+  height: 350px;
+}
+
+/* Ajuste en pantallas chicas */
+@media (max-width: 576px) {
+  .card img {
+    height: 250px; /* o el valor que prefieras */
+  }
 }
