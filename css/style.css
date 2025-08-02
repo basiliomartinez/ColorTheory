@@ -121,3 +121,9 @@ flex-grow: 1;
     height: 250px; /* o el valor que prefieras */
   }
 }
+
+/*Seccion Tipos de Colores*/
+.card-header {
+  background-color: #487561;
+}
+
