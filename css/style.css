@@ -118,12 +118,12 @@ flex-grow: 1;
 /* Ajuste en pantallas chicas */
 @media (max-width: 576px) {
   .card img {
-    height: 250px; /* o el valor que prefieras */
+    height: 250px;
   }
 }
 
 /*Seccion Tipos de Colores*/
 .card-header {
-  background-color: #487561;
+ 
 }
 
