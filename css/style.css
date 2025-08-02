@@ -128,9 +128,45 @@ flex-grow: 1;
   color: #ede9e9;
 }
 
+/*Seccion Formulario*/
 .decoracion-barra-form{
   width: 60px;
   height: 4px;
   background-color: #ede9e9;
   border-radius: 2px;
 }
+.formulario-btn {
+  background-color: white;
+  color: #212020;
+  padding: 0.75rem 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-btn:hover {
+  background-color: #e4e4e4;
+  color: #287351;
+}
+
+
+.newsletter-form .form-label {
+  color: white;
+  font-weight: 500;
+}
+
+.newsletter-btn {
+  background-color: white;
+  color: #3d735a;
+  font-weight: bold;
+  padding: 0.75rem 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-btn:hover {
+  background-color: #e4e4e4;
+}
+
+*/
