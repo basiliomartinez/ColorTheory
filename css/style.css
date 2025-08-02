@@ -122,4 +122,15 @@ flex-grow: 1;
   }
 }
 
+/*Seccion Teoria del color*/
+.bgForm{
+  background-color: #487561 ;
+  color: #ede9e9;
+}
 
+.decoracion-barra-form{
+  width: 60px;
+  height: 4px;
+  background-color: #ede9e9;
+  border-radius: 2px;
+}
