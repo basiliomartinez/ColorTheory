@@ -169,6 +169,8 @@ main {
 
 /*Transiciones y Animaciones*/
 
+/*Transiciones y Animaciones Seccion Teoria del Color */
+
 .iconoTeoria {
   transition: transform 0.3s ease;
 }
@@ -177,3 +179,24 @@ main {
   transform: scale(1.2) rotate(30deg);
 }
 
+/*Transiciones y Animaciones Seccion Galeria de Colores */
+
+.cardAnimacion {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardAnimacion:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*Transiciones y Animaciones Seccion Tipos de Colores */
+
+.card-hover-zoom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-zoom:hover {
+  transform: scale(1.10);
+  box-shadow: 0px 12px 20px rgba(59, 240, 4, 0.408)!important ;
+}
