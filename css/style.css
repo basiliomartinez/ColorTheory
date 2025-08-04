@@ -56,7 +56,8 @@ main {
 .rotated-imageHero {
   transform: rotate(3deg);
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
-  border-radius: 0.25rem;
+  border-radius: 2.9rem;
+  width: 70%;
 }
 
 /*Seccion Teoria del color*/
@@ -210,5 +211,19 @@ main {
 @keyframes expancionBarra {
   to {
     width: 60px;
+  }
+}
+
+.rotated-imageHero {
+  animation: rotarHero 6s linear infinite;
+  display: inline-block;
+}
+
+@keyframes rotarHero {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
