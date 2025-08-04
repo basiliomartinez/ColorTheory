@@ -227,3 +227,10 @@ main {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 576px) {
+  .rotated-imageHero {
+    max-width: 60%;
+    margin-top: 1rem;
+  }
+}
